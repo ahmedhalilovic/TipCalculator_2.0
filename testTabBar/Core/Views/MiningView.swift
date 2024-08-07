@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct FavouritesView: View {
+struct MiningView: View {
     @StateObject var viewModel = CoinsViewModel()
     
     var body: some View {
@@ -39,7 +39,7 @@ struct FavouritesView: View {
     }
 }
 
-struct FavouritesView_Previews: PreviewProvider {
+struct MiningView_Previews: PreviewProvider {
     static var previews: some View {
         FavouritesView()
     }
