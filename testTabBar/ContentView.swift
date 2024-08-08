@@ -13,7 +13,7 @@ struct ContentView: View {
     var body: some View {
         TabView {
             NavigationView {
-                HomeView()
+                NewsView()
                     .navigationTitle("Home")
             }
                 .tabItem {
@@ -24,14 +24,14 @@ struct ContentView: View {
                     .navigationTitle("Tip Calculator")
             }
                 .tabItem {
-                    Label("Tip Calculator", systemImage: "book")
+                    Label("Tip Calculator", systemImage: "percent")
                 }
             NavigationView {
-                FavouritesView()
+                MiningView()
                     .navigationTitle("Coins")
             }
                 .tabItem {
-                    Label("Coins", systemImage: "bitcoinsign")
+                    Label("Coins", systemImage: "bitcoinsign.circle")
                 }
             NavigationView {
                 SpecificationView()

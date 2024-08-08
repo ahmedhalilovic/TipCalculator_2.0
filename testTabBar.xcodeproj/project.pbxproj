@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EB1D464D2C6349CF00B977BE /* NewsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1D464C2C6349CF00B977BE /* NewsView.swift */; };
 		EB619C5B2B364C0500ACE945 /* testTabBarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB619C5A2B364C0500ACE945 /* testTabBarApp.swift */; };
 		EB619C5D2B364C0500ACE945 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB619C5C2B364C0500ACE945 /* ContentView.swift */; };
 		EB619C5F2B364C0900ACE945 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB619C5E2B364C0900ACE945 /* Assets.xcassets */; };
 		EB619C622B364C0900ACE945 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB619C612B364C0900ACE945 /* Preview Assets.xcassets */; };
-		EB619C692B364C4900ACE945 /* FavouritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB619C682B364C4900ACE945 /* FavouritesView.swift */; };
+		EB619C692B364C4900ACE945 /* MiningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB619C682B364C4900ACE945 /* MiningView.swift */; };
 		EB619C6B2B364CD400ACE945 /* TipCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB619C6A2B364CD400ACE945 /* TipCalculator.swift */; };
 		EB619C6E2B36E29800ACE945 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB619C6D2B36E29800ACE945 /* HomeView.swift */; };
 		EB619C702B36E2A700ACE945 /* SpecificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB619C6F2B36E2A700ACE945 /* SpecificationView.swift */; };
+		EB6C13C52C5DB949000FFD26 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6C13C42C5DB949000FFD26 /* CardView.swift */; };
+		EB6C13C72C5F0337000FFD26 /* GuestCountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6C13C62C5F0337000FFD26 /* GuestCountView.swift */; };
 		EBEEAE5C2B6DBB1F004FE3FA /* Coin.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBEEAE5B2B6DBB1F004FE3FA /* Coin.swift */; };
 		EBEEAE5E2B6DBC6A004FE3FA /* CoinAPIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBEEAE5D2B6DBC6A004FE3FA /* CoinAPIError.swift */; };
 		EBEEAE602B6DBE7D004FE3FA /* CoinsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBEEAE5F2B6DBE7D004FE3FA /* CoinsViewModel.swift */; };
@@ -22,15 +25,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EB1D464C2C6349CF00B977BE /* NewsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsView.swift; sourceTree = "<group>"; };
 		EB619C572B364C0500ACE945 /* testTabBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testTabBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB619C5A2B364C0500ACE945 /* testTabBarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testTabBarApp.swift; sourceTree = "<group>"; };
 		EB619C5C2B364C0500ACE945 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EB619C5E2B364C0900ACE945 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EB619C612B364C0900ACE945 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		EB619C682B364C4900ACE945 /* FavouritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritesView.swift; sourceTree = "<group>"; };
+		EB619C682B364C4900ACE945 /* MiningView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiningView.swift; sourceTree = "<group>"; };
 		EB619C6A2B364CD400ACE945 /* TipCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipCalculator.swift; sourceTree = "<group>"; };
 		EB619C6D2B36E29800ACE945 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		EB619C6F2B36E2A700ACE945 /* SpecificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecificationView.swift; sourceTree = "<group>"; };
+		EB6C13C42C5DB949000FFD26 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		EB6C13C62C5F0337000FFD26 /* GuestCountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuestCountView.swift; sourceTree = "<group>"; };
 		EBEEAE5B2B6DBB1F004FE3FA /* Coin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coin.swift; sourceTree = "<group>"; };
 		EBEEAE5D2B6DBC6A004FE3FA /* CoinAPIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinAPIError.swift; sourceTree = "<group>"; };
 		EBEEAE5F2B6DBE7D004FE3FA /* CoinsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinsViewModel.swift; sourceTree = "<group>"; };
@@ -89,8 +95,11 @@
 			children = (
 				EB619C6D2B36E29800ACE945 /* HomeView.swift */,
 				EB619C6A2B364CD400ACE945 /* TipCalculator.swift */,
-				EB619C682B364C4900ACE945 /* FavouritesView.swift */,
+				EB619C682B364C4900ACE945 /* MiningView.swift */,
 				EB619C6F2B36E2A700ACE945 /* SpecificationView.swift */,
+				EB6C13C42C5DB949000FFD26 /* CardView.swift */,
+				EB6C13C62C5F0337000FFD26 /* GuestCountView.swift */,
+				EB1D464C2C6349CF00B977BE /* NewsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -212,12 +221,15 @@
 				EB619C6B2B364CD400ACE945 /* TipCalculator.swift in Sources */,
 				EBEEAE602B6DBE7D004FE3FA /* CoinsViewModel.swift in Sources */,
 				EB619C5D2B364C0500ACE945 /* ContentView.swift in Sources */,
+				EB6C13C72C5F0337000FFD26 /* GuestCountView.swift in Sources */,
 				EBEEAE5E2B6DBC6A004FE3FA /* CoinAPIError.swift in Sources */,
 				EB619C702B36E2A700ACE945 /* SpecificationView.swift in Sources */,
-				EB619C692B364C4900ACE945 /* FavouritesView.swift in Sources */,
+				EB619C692B364C4900ACE945 /* MiningView.swift in Sources */,
+				EB1D464D2C6349CF00B977BE /* NewsView.swift in Sources */,
 				EB619C6E2B36E29800ACE945 /* HomeView.swift in Sources */,
 				EB619C5B2B364C0500ACE945 /* testTabBarApp.swift in Sources */,
 				EBEEAE622B6DBED6004FE3FA /* CoinDataService.swift in Sources */,
+				EB6C13C52C5DB949000FFD26 /* CardView.swift in Sources */,
 				EBEEAE5C2B6DBB1F004FE3FA /* Coin.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

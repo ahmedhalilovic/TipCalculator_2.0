@@ -41,6 +41,6 @@ struct MiningView: View {
 
 struct MiningView_Previews: PreviewProvider {
     static var previews: some View {
-        FavouritesView()
+        MiningView()
     }
 }

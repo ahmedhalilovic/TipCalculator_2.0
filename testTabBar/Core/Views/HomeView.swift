@@ -9,7 +9,10 @@ import SwiftUI
 
 struct HomeView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            NewsView()
+            Text("Ola view")
+        }
     }
 }
 
@@ -18,3 +21,4 @@ struct HomeView_Previews: PreviewProvider {
         HomeView()
     }
 }
+

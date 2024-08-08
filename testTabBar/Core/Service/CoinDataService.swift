@@ -9,6 +9,7 @@ import Foundation
 
 class CoinDataService {
     
+    // URL from where the realtime coin data is taken from
     private let urlString = "https://api.coingecko.com/api/v3/coins/markets?vs_currency=eur&order=market_cap_desc&per_page=20&page=1&sparkline=false&locale=en"
     
     func fetchCoins() async throws -> [Coin] {
